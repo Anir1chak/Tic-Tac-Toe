@@ -1,0 +1,70 @@
+/* Tictactoe.css */
+.container {
+    text-align: center;
+  }
+  
+  .title {
+    margin-top: 50px;
+    color: blue;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Reset {
+    width: 250px;
+    height: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background: #1f3540;
+    font-size: 26px;
+    color: #26ffcb;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+  
+  .boxes {
+    display: flex;
+    height: 180px;
+    width: 180px;
+    background: #1f3540;
+    border: 4px solid #0f1b21;
+    border-radius: 12px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: white;
+  }
+  
+  .Board {
+    height: 600px;
+    width: 564px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  
+  .row1, .row2, .row3 {
+    display: flex;
+    width: 100%;
+  }
+  
+  .boxes .x {
+    color: red;
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  .boxes .o {
+    color: green;
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  .strike {
+    text-decoration: line-through;
+  }
